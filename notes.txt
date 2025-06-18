@@ -1,0 +1,11 @@
+1)insall nodejs
+2)open the terminal on VSCode
+3)(if youre running on windows, make sure that youre using a command prompt)
+4)type npm create vite@latest project -- --template
+4-a) "project" is just the name of the folder
+5) cd project
+6) npm insall
+6-a) dont share or move the nodemodules folder
+7)npm run dev
+
+8)to start your server at the begining of the class repeat step 5 and 7
