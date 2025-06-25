@@ -2,19 +2,19 @@ import "./product.css";
 import QtyPicker from "./qtyPicker";
 import { useEffect } from "react";
 
-function Product() {
+function Product(props) {
     useEffect(function(){
         console.log("Hello im a product");
     },[]);
-} 
 
-function Product() {
+
+ 
     return (
        <div className="product">
-            <h5>title goes here</h5>
-            <img src="https://picsum.photos/200/200"></img>
+            <h5>{props.x.price}</h5>
+            <img src={"/images/"+ props.x.image}></img>
             <div className="prices">
-                <label>Price</label>
+                <label>{props.x.price}</label>
                 <label>Total</label>
             </div>
             <QtyPicker/>

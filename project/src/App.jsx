@@ -10,9 +10,7 @@ function App() {
   return (
       <div className="App">
         <NavBar/>
-        <h1>Hello from REACT</h1>
         <Catalog/>
-
         <Footer/>
       </div>
     
